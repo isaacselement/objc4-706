@@ -101,11 +101,14 @@ class nocopy_t {
 #   include <mach-o/getsect.h>
 #   include <mach-o/dyld_priv.h>
 #   include <malloc/malloc.h>
-#   include <os/lock_private.h>
+//#   include <os/lock_private.h>
 #   include <libkern/OSAtomic.h>
 #   include <libkern/OSCacheControl.h>
 #   include <System/pthread_machdep.h>
 #   include "objc-probes.h"  // generated dtrace probe definitions.
+#   include <pthread/tsd_private.h>
+#   include <pthread/qos_private.h>
+#   include <os/lock.h>
 
 // Some libc functions call objc_msgSend() 
 // so we can't use them without deadlocks.
@@ -806,14 +809,15 @@ class mutex_tt : nocopy_t {
     void lock() {
         lockdebug_mutex_lock(this);
 
-        os_unfair_lock_lock_with_options_inline
-            (&mLock, OS_UNFAIR_LOCK_DATA_SYNCHRONIZATION);
+//        os_unfair_lock_lock_with_options_inline (&mLock, OS_UNFAIR_LOCK_DATA_SYNCHRONIZATION);
+        os_unfair_lock_lock(&mLock);
     }
 
     void unlock() {
         lockdebug_mutex_unlock(this);
 
-        os_unfair_lock_unlock_inline(&mLock);
+//        os_unfair_lock_unlock_inline(&mLock);
+        os_unfair_lock_unlock(&mLock);
     }
 
     void assertLocked() {

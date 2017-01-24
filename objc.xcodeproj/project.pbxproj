@@ -25,6 +25,20 @@
 		393CEAC60DC69E67000B69DE /* objc-references.h in Headers */ = {isa = PBXBuildFile; fileRef = 393CEAC50DC69E67000B69DE /* objc-references.h */; };
 		39ABD72312F0B61800D1054C /* objc-weak.h in Headers */ = {isa = PBXBuildFile; fileRef = 39ABD71F12F0B61800D1054C /* objc-weak.h */; };
 		39ABD72412F0B61800D1054C /* objc-weak.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39ABD72012F0B61800D1054C /* objc-weak.mm */; };
+		5E7A6AB51E3728B000859226 /* _simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AA11E3728B000859226 /* _simple.h */; };
+		5E7A6AB61E3728B000859226 /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AA21E3728B000859226 /* Block_private.h */; };
+		5E7A6AB71E3728B000859226 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AA31E3728B000859226 /* CrashReporterClient.h */; };
+		5E7A6AB81E3728B000859226 /* dyld_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AA51E3728B000859226 /* dyld_priv.h */; };
+		5E7A6AB91E3728B000859226 /* objc-shared-cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AA61E3728B000859226 /* objc-shared-cache.h */; };
+		5E7A6ABA1E3728B000859226 /* tsd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AA81E3728B000859226 /* tsd.h */; };
+		5E7A6ABB1E3728B000859226 /* qos_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AAA1E3728B000859226 /* qos_private.h */; };
+		5E7A6ABC1E3728B000859226 /* spinlock_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AAB1E3728B000859226 /* spinlock_private.h */; };
+		5E7A6ABD1E3728B000859226 /* tsd_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AAC1E3728B000859226 /* tsd_private.h */; };
+		5E7A6ABE1E3728B000859226 /* workqueue_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AAD1E3728B000859226 /* workqueue_private.h */; };
+		5E7A6ABF1E3728B000859226 /* qos_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AAF1E3728B000859226 /* qos_private.h */; };
+		5E7A6AC01E3728B000859226 /* reason.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AB01E3728B000859226 /* reason.h */; };
+		5E7A6AC11E3728B000859226 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AB31E3728B000859226 /* cpu_capabilities.h */; };
+		5E7A6AC21E3728B000859226 /* pthread_machdep.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7A6AB41E3728B000859226 /* pthread_machdep.h */; };
 		830F2A740D737FB800392440 /* objc-msg-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A690D737FB800392440 /* objc-msg-arm.s */; };
 		830F2A750D737FB900392440 /* objc-msg-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A6A0D737FB800392440 /* objc-msg-i386.s */; };
 		830F2A7D0D737FBB00392440 /* objc-msg-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A720D737FB800392440 /* objc-msg-x86_64.s */; };
@@ -120,6 +134,20 @@
 		393CEAC50DC69E67000B69DE /* objc-references.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-references.h"; path = "runtime/objc-references.h"; sourceTree = "<group>"; };
 		39ABD71F12F0B61800D1054C /* objc-weak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-weak.h"; path = "runtime/objc-weak.h"; sourceTree = "<group>"; };
 		39ABD72012F0B61800D1054C /* objc-weak.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "objc-weak.mm"; path = "runtime/objc-weak.mm"; sourceTree = "<group>"; };
+		5E7A6AA11E3728B000859226 /* _simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _simple.h; sourceTree = "<group>"; };
+		5E7A6AA21E3728B000859226 /* Block_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block_private.h; sourceTree = "<group>"; };
+		5E7A6AA31E3728B000859226 /* CrashReporterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporterClient.h; sourceTree = "<group>"; };
+		5E7A6AA51E3728B000859226 /* dyld_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dyld_priv.h; sourceTree = "<group>"; };
+		5E7A6AA61E3728B000859226 /* objc-shared-cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "objc-shared-cache.h"; sourceTree = "<group>"; };
+		5E7A6AA81E3728B000859226 /* tsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tsd.h; sourceTree = "<group>"; };
+		5E7A6AAA1E3728B000859226 /* qos_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qos_private.h; sourceTree = "<group>"; };
+		5E7A6AAB1E3728B000859226 /* spinlock_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spinlock_private.h; sourceTree = "<group>"; };
+		5E7A6AAC1E3728B000859226 /* tsd_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tsd_private.h; sourceTree = "<group>"; };
+		5E7A6AAD1E3728B000859226 /* workqueue_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = workqueue_private.h; sourceTree = "<group>"; };
+		5E7A6AAF1E3728B000859226 /* qos_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qos_private.h; sourceTree = "<group>"; };
+		5E7A6AB01E3728B000859226 /* reason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reason.h; sourceTree = "<group>"; };
+		5E7A6AB31E3728B000859226 /* cpu_capabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_capabilities.h; sourceTree = "<group>"; };
+		5E7A6AB41E3728B000859226 /* pthread_machdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pthread_machdep.h; sourceTree = "<group>"; };
 		830F2A690D737FB800392440 /* objc-msg-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-arm.s"; path = "runtime/Messengers.subproj/objc-msg-arm.s"; sourceTree = "<group>"; };
 		830F2A6A0D737FB800392440 /* objc-msg-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-i386.s"; path = "runtime/Messengers.subproj/objc-msg-i386.s"; sourceTree = "<group>"; };
 		830F2A720D737FB800392440 /* objc-msg-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-x86_64.s"; path = "runtime/Messengers.subproj/objc-msg-x86_64.s"; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
@@ -220,6 +248,7 @@
 		08FB7794FE84155DC02AAC07 /* objc */ = {
 			isa = PBXGroup;
 			children = (
+				5E7A6AA01E3728B000859226 /* include */,
 				BC8B5D1212D3D48100C78A5B /* libauto.dylib */,
 				838485C60D6D687700CEA253 /* Public Headers */,
 				838485C70D6D688200CEA253 /* Private Headers */,
@@ -293,6 +322,75 @@
 				D2AAC0630554660B00DB518D /* libobjc.A.dylib */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5E7A6AA01E3728B000859226 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6AA11E3728B000859226 /* _simple.h */,
+				5E7A6AA21E3728B000859226 /* Block_private.h */,
+				5E7A6AA31E3728B000859226 /* CrashReporterClient.h */,
+				5E7A6AA41E3728B000859226 /* mach-o */,
+				5E7A6AA61E3728B000859226 /* objc-shared-cache.h */,
+				5E7A6AA71E3728B000859226 /* os */,
+				5E7A6AA91E3728B000859226 /* pthread */,
+				5E7A6AAE1E3728B000859226 /* sys */,
+				5E7A6AB11E3728B000859226 /* System */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5E7A6AA41E3728B000859226 /* mach-o */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6AA51E3728B000859226 /* dyld_priv.h */,
+			);
+			path = "mach-o";
+			sourceTree = "<group>";
+		};
+		5E7A6AA71E3728B000859226 /* os */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6AA81E3728B000859226 /* tsd.h */,
+			);
+			path = os;
+			sourceTree = "<group>";
+		};
+		5E7A6AA91E3728B000859226 /* pthread */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6AAA1E3728B000859226 /* qos_private.h */,
+				5E7A6AAB1E3728B000859226 /* spinlock_private.h */,
+				5E7A6AAC1E3728B000859226 /* tsd_private.h */,
+				5E7A6AAD1E3728B000859226 /* workqueue_private.h */,
+			);
+			path = pthread;
+			sourceTree = "<group>";
+		};
+		5E7A6AAE1E3728B000859226 /* sys */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6AAF1E3728B000859226 /* qos_private.h */,
+				5E7A6AB01E3728B000859226 /* reason.h */,
+			);
+			path = sys;
+			sourceTree = "<group>";
+		};
+		5E7A6AB11E3728B000859226 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6AB21E3728B000859226 /* machine */,
+				5E7A6AB41E3728B000859226 /* pthread_machdep.h */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		5E7A6AB21E3728B000859226 /* machine */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6AB31E3728B000859226 /* cpu_capabilities.h */,
+			);
+			path = machine;
 			sourceTree = "<group>";
 		};
 		838485B20D6D67F900CEA253 /* Other */ = {
@@ -384,20 +482,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				830F2A980D738DC200392440 /* hashtable.h in Headers */,
+				5E7A6AC01E3728B000859226 /* reason.h in Headers */,
 				838485BF0D6D687300CEA253 /* hashtable2.h in Headers */,
 				838486260D6D68F000CEA253 /* List.h in Headers */,
+				5E7A6ABA1E3728B000859226 /* tsd.h in Headers */,
 				838485C30D6D687300CEA253 /* maptable.h in Headers */,
 				838486280D6D6A2400CEA253 /* message.h in Headers */,
+				5E7A6AC11E3728B000859226 /* cpu_capabilities.h in Headers */,
 				834EC0A411614167009B2563 /* objc-abi.h in Headers */,
 				838485EF0D6D68A200CEA253 /* objc-api.h in Headers */,
+				5E7A6ABD1E3728B000859226 /* tsd_private.h in Headers */,
 				838485F00D6D68A200CEA253 /* objc-auto.h in Headers */,
+				5E7A6ABE1E3728B000859226 /* workqueue_private.h in Headers */,
 				838485F40D6D68A200CEA253 /* objc-class.h in Headers */,
 				838485F60D6D68A200CEA253 /* objc-config.h in Headers */,
 				838485F80D6D68A200CEA253 /* objc-exception.h in Headers */,
+				5E7A6AB61E3728B000859226 /* Block_private.h in Headers */,
 				83BE02E80FCCB24D00661494 /* objc-file-old.h in Headers */,
 				83BE02E90FCCB24D00661494 /* objc-file.h in Headers */,
 				834266D80E665A8B002E4DA2 /* objc-gdb.h in Headers */,
+				5E7A6ABB1E3728B000859226 /* qos_private.h in Headers */,
 				838485FB0D6D68A200CEA253 /* objc-initialize.h in Headers */,
+				5E7A6AC21E3728B000859226 /* pthread_machdep.h in Headers */,
 				83112ED40F00599600A5FBAF /* objc-internal.h in Headers */,
 				838485FE0D6D68A200CEA253 /* objc-load.h in Headers */,
 				838486000D6D68A200CEA253 /* objc-loadmethod.h in Headers */,
@@ -408,14 +514,20 @@
 				83BE02EA0FCCB24D00661494 /* objc-runtime-old.h in Headers */,
 				8384860A0D6D68A200CEA253 /* objc-runtime.h in Headers */,
 				8384860C0D6D68A200CEA253 /* objc-sel-set.h in Headers */,
+				5E7A6AB81E3728B000859226 /* dyld_priv.h in Headers */,
+				5E7A6AB71E3728B000859226 /* CrashReporterClient.h in Headers */,
 				838486100D6D68A200CEA253 /* objc-sync.h in Headers */,
 				838486130D6D68A200CEA253 /* objc.h in Headers */,
 				838486140D6D68A200CEA253 /* Object.h in Headers */,
 				8384861E0D6D68A800CEA253 /* Protocol.h in Headers */,
+				5E7A6ABF1E3728B000859226 /* qos_private.h in Headers */,
+				5E7A6AB91E3728B000859226 /* objc-shared-cache.h in Headers */,
 				838486200D6D68A800CEA253 /* runtime.h in Headers */,
+				5E7A6AB51E3728B000859226 /* _simple.h in Headers */,
 				39ABD72312F0B61800D1054C /* objc-weak.h in Headers */,
 				83F4B52815E843B100E0926F /* NSObjCRuntime.h in Headers */,
 				83F4B52915E843B100E0926F /* NSObject.h in Headers */,
+				5E7A6ABC1E3728B000859226 /* spinlock_private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +696,7 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_CW_ASM_SYNTAX = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = LIBC_NO_LIBCRASHREPORTERCLIENT;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(DSTROOT)/usr/include/**",
@@ -591,9 +704,10 @@
 					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
 					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
 					/System/Library/Frameworks/System.framework/PrivateHeaders,
+					"$(SRCROOT)/include",
 				);
 				INSTALL_PATH = /usr/lib;
-				ORDER_FILE = "$(SDKROOT)/AppleInternal/OrderFiles/libobjc.order";
+				ORDER_FILE = "$(SRCROOT)/libobjc.order";
 				"ORDER_FILE[sdk=iphonesimulator*]" = "";
 				OTHER_CFLAGS = (
 					"-fdollars-in-identifiers",
@@ -613,7 +727,6 @@
 				);
 				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = "-lc++abi";
 				"OTHER_LDFLAGS[sdk=macosx*]" = (
-					"-lCrashReporterClient",
 					"-lauto",
 					"-lc++abi",
 					"-Xlinker",
@@ -638,6 +751,7 @@
 				DYLIB_CURRENT_VERSION = 228;
 				EXECUTABLE_PREFIX = lib;
 				GCC_CW_ASM_SYNTAX = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = LIBC_NO_LIBCRASHREPORTERCLIENT;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(DSTROOT)/usr/include/**",
@@ -645,9 +759,10 @@
 					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
 					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
 					/System/Library/Frameworks/System.framework/PrivateHeaders,
+					"$(SRCROOT)/include",
 				);
 				INSTALL_PATH = /usr/lib;
-				ORDER_FILE = "$(SDKROOT)/AppleInternal/OrderFiles/libobjc.order";
+				ORDER_FILE = "$(SRCROOT)/libobjc.order";
 				"ORDER_FILE[sdk=iphonesimulator*]" = "";
 				OTHER_CFLAGS = (
 					"-fdollars-in-identifiers",
@@ -667,7 +782,6 @@
 				);
 				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = "-lc++abi";
 				"OTHER_LDFLAGS[sdk=macosx*]" = (
-					"-lCrashReporterClient",
 					"-lauto",
 					"-lc++abi",
 					"-Xlinker",
